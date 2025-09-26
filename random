@@ -1,0 +1,11 @@
+   <form action="https:www.google.com">
+<input type = "radio" input id = "option1" name = "catquestion" value = "option1">
+<label for = "option1">crazy cat lady</label>
+<br>
+<input type = "radio" input id = "option2" name = "catquestion" value = "option2">
+<label for = "option2">kitten</label>
+<br>
+<input type = "radio" input id = "option3" name = "catquestion" value = "option3">
+<label for = "option3">astronaunt cat</label>
+<br> 
+<input type = "submit" name = "catquestion">
