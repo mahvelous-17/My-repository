@@ -22,7 +22,7 @@ body {
 <center>
 
    <h1 style="color: rgb(255, 255, 255); font-size: 3em;" >NOAH LYLES</h1>
-       <img src="./images/Noah.jpg"width = 350 height = 350> 
+       <img src="./Noah.jpg"width = 350 height = 350> 
 
            <!-- Lyles Info -->
   <p style="color: rgb(255, 255, 255); font-size: 1em;" > <strong>Noah Lyles</strong> is one of the fastest sprinters in the world today. 
@@ -32,7 +32,7 @@ body {
   Despite having asthma, Lyles continues to be dominate the track.</p>
 
     <!-- World Lead -->
-       <img src="./images/19.51.jpg"width = 500 height = 300> 
+       <img src="./19.51.jpg"width = 500 height = 300> 
 <P style="color: rgb(255, 255, 255); font-size: 1em;">Above you see Noah Lyles finishing in the 2025 semi final with a <strong>WORLD LEAD</strong> 
 running the fastest semi final time of all time of <em>19.51 seconds</em>
 and despite critics stating he would not be able to perform as good in the final he still managed to run a 19.52
