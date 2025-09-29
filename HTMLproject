@@ -2,19 +2,73 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Lucki4Life</title>
+    <title>Noah Lyles Fan</title>
 </head>
 <body>
-    <style>
-            body {
-                background-color:#000000;
+<style>
+body {
+                background-color:#050505;
             }
-        </style>
 
-    <!--header-->
-   <p style="color: rgb(255, 255, 255); font-size: 3em;">NOAH LYLES</p>
-       <img src="./images/Lucki (1).png"> <iframe width="560" height="315" src="https://www.youtube.com/embed/egMEvoCWc3k?si=J583gTRbA0eDNpi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+    form {
+      background-color: #ffffff;
+      width: 70%;
+      text-align: left;
+    }
 
-   <p style="color: rgb(255, 255, 255); font-size: 2em;"></p>
 
-<pre style="color: rgb(255, 0, 0);"">
+</style>
+<center>
+
+   <h1 style="color: rgb(255, 255, 255); font-size: 3em;" >NOAH LYLES</h1>
+       <img src="./images/Noah.jpg"width = 350 height = 350> 
+
+           <!-- Lyles Info -->
+  <p style="color: rgb(255, 255, 255); font-size: 1em;" > <strong>Noah Lyles</strong> is one of the fastest sprinters in the world today. 
+  He is a <strong>4x 200m World Champion</strong>, tying the legendary Usain Bolt. 
+  His personal best in the 200m is <em>19.31 seconds</em>, making him the 
+  third fastest of all time, behind Yohan Blake (19.26) and Usain Bolt (19.19). 
+  Despite having asthma, Lyles continues to be dominate the track.</p>
+
+    <!-- World Lead -->
+       <img src="./images/19.51.jpg"width = 500 height = 300> 
+<P style="color: rgb(255, 255, 255); font-size: 1em;">Above you see Noah Lyles finishing in the 2025 semi final with a <strong>WORLD LEAD</strong> 
+running the fastest semi final time of all time of <em>19.51 seconds</em>
+and despite critics stating he would not be able to perform as good in the final he still managed to run a 19.52
+winning his 4th 200m world championship in a row</P>
+
+  <h2  style="color: rgb(255, 255, 255); font-size: 1em;">Trivia Quiz</h2>
+  <p style="color: rgb(255, 255, 255); font-size: 1em;">Test your Noah Lyles knowledge!</p>
+  <form action="results.html" method="get">
+    <!-- Question 1: Radio buttons -->
+    <label>How many times has Lyles won the 200m World Championship?</label><br>
+    <input type="radio" name="champ" value="2">2<br>
+    <input type="radio" name="champ" value="3">3<br>
+    <input type="radio" name="champ" value="4">4<br><br>
+
+    <!-- Question 2: Select menu -->
+    <label for="rank">What is Lyles’s all-time 200m ranking?</label><br>
+    <select id="rank" name="rank">
+      <option value="1st">1st</option>
+      <option value="2nd">2nd</option>
+      <option value="3rd">3rd</option>
+    </select><br><br>
+
+    <!-- Question 3: Text input -->
+    <label for="time">What is his personal best in the 200m?</label><br>
+    <input type="text" id="time" name="time" placeholder="XX:XX"><br><br>
+
+    <!-- Question 4: Contact -->
+    <label for="fanName">Your Name:</label><br>
+    <input type="text" id="fanName" name="fanName" placeholder="Enter your name"><br><br>
+
+    <input type="submit" value="See Results!">
+  </form>
+
+  <!-- Link to external site -->
+  <p><a href="https://en.wikipedia.org/wiki/Noah_Lyles" target="_blank">Learn more about Noah Lyles</a></p>
+  <center>
+</body>
+
+
