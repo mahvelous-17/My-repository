@@ -42,13 +42,13 @@ winning his 4th 200m world championship in a row</p>
   <p style="color: rgb(255, 255, 255); font-size: 1em;">Test your Noah Lyles knowledge!</p>
   <form action="https://mahvelous-17.github.io/My-repository/Project1/results.html" method="get">
     <!-- Question 1: Radio buttons -->
-    <p>How many times has Lyles won the 200m World Championship?</p>
-    <input type="radio" name="champ" value="2">2<br>
-    <input type="radio" name="champ" value="3">3<br>
-    <input type="radio" name="champ" value="4">4<br>
+    <label for="champ">How many times has Lyles won the 200m World Championship?</label><br>
+    <label><input type="radio" name="champ" value="2"> 2</label><br>
+    <label><input type="radio" name="champ" value="3"> 3</label><br>
+    <label><input type="radio" name="champ" value="4"> 4</label><br>
 
     <!-- Question 2: Select menu -->
-    <p for="rank">What is Lyles’s all-time 200m ranking?</p>
+    <label for="rank">What is Lyles’s all-time 200m ranking?</label><br>
     <select id="rank" name="rank">
       <option value="1st">1st</option>
       <option value="2nd">2nd</option>
@@ -56,11 +56,11 @@ winning his 4th 200m world championship in a row</p>
     </select><br><br>
 
     <!-- Question 3: Text input -->
-    <p for="time">What is his personal best in the 200m?</p><br>
+    <label for="time">What is his personal best in the 200m?</label><br>
     <input type="text" id="time" name="time" placeholder="XX:XX"><br><br>
 
     <!-- Question 4: Contact -->
-    <p for="fanName">Your Name:</p>
+    <label for="fanName">Your Name:</label><br>
     <input type="text" id="fanName" name="fanName" placeholder="Enter your name"><br><br>
 
     <input type="submit" value="See Results!">
